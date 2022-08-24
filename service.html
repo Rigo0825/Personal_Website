@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Bootstrap Font Icon CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+        <title>Home - Rigoberto Olivares</title>
+        
+        <link rel="stylesheet" type="text/css" href="style.css"></link>
+    </head>
+
+    <body id="body" class="backDark">
+
+        <!-- Social Media and Dark Mode -->
+        <div>
+            <a class="toggle"><i id="mode" class="bi bi-brightness-high-fill" style="font-size: 20pt;" onclick="changeBackgroundColor()"></i></a>
+            <a href="https://www.linkedin.com/in/rigoberto-olivares-3aaa07192" class="social"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/rigo_olivares" class="social"><i class="bi bi-twitter"></i></a>
+        </div>
+
+
+        <!-- Navigation Bar --> 
+        
+        <div class="container" style="max-width: 700px;">
+            <div class="row">
+                <div id="box" class="col box dark" style="outline: 0px; border-radius: 25px;">
+                    <ul class="nav nav-fill">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="bi bi-house-door"></i>HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html"><i class="bi bi-journals"></i>PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="qualifications.html"><i class="bi bi-check2-square"></i>QUALIFICATIONS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active">SERVICE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Heading -->
+
+        <div class="container" style="max-width: 1200px; margin: 0px auto">
+            <div class="row">
+                <div id="box" class="col box dark" style="outline: 0px; border-radius: 25px;">
+                    <i class="bi bi-people-fill" style="font-size: 130pt; margin: auto 10px;"></i>
+                    <h1 style="text-shadow: none;">My Service</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Body -->
+
+        <div class="container" style="max-width: 1050px;">
+
+            <div class="row">
+                <div class="col">
+                    <h1 id="title" class="hDark">Planned</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="box" class="col box dark">
+                    <h3 style="margin-top: 10px">Regents' Scholars Orientation</h3>
+                    <p> 
+                        The <a href="https://scholarships.tamu.edu/Scholarship-Programs/Regents-Scholars" target="_blank">Regents' Scholars Program</a> 
+                        awards hundreds of first 
+                        generation college students with a scholarship to aid in 
+                        their academic studies. <br>
+                        ...<br>
+                        Every year, they hold an orientation to welcome new recipients
+                        of the award. <br>
+                        ...<br>
+                        As a Regents' Scholar, I would like to show my appreciation for
+                        the program by volunteering to assist in egents' Scholars Orientation<br>
+                    </p>
+                </div>
+                <div id="box" class="col box dark">
+                    <h3 style="margin-top: 10px"><a href="https://bigevent.tamu.edu/" target="_blank">The Big Event</a></h3>
+                    <p> 
+                        An annual event where Aggies show their appreciation to the surrounding community,
+                        by completing service projects such as yard work, window washing, and painting 
+                        for residents of the community.  <br>
+                        ...<br>
+                        As an Aggie, I have to participate in the Big Event at least once
+                        before graduating. I have enjoyed my time in Texas A&M University so
+                        far and I would love to say "Thank you!".<br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col box">
+                    <img src="regents.PNG" style="border-radius: 50%; width: 300px; height: 300px;"/>
+                </div>
+                <div class="col box">
+                    <img src="bigevent.png" style="width: 400px; height: 306px;"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h1 id="title" class="hDark">Past</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="box" class="col box dark">
+                    <h3 style="margin-top: 10px">Reforestation</h3>
+                    <p> 
+                        High School <br>
+                        ...<br>
+                        Was part of the reforestation of a large piece of land,
+                        given away for the ecological reasons. <br>
+                    </p>
+                </div>
+                <div id="box" class="col box dark">
+                    <h3 style="margin-top: 10px">Student Council</h3>
+                    <p> 
+                        High School <br>
+                        ...<br>
+                        Regularly participated in the organization of school events,
+                        decoreation during holidays, and charity fundraisers. <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col box">
+                    <i class="bi bi-tree-fill" style="color: white; font-size: 100pt;"></i>
+                </div>
+                <div class="col box">
+                    <i class="bi bi-justify-left" style="color: white; font-size: 100pt; margin: 0px;"></i>
+                    <i class="bi bi-pen-fill" style="color: white; font-size: 50pt; margin: 0px;"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- JS files: jQuery first, then Bootstrap JS -->
+        <script src="functions.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+
+</html>

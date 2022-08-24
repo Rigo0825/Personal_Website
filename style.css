@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(61, 61, 61);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 50px 50px;
+    color: white;
+    font-family: Consolas;
+}
+
+h1 {
+    text-align-last: center;
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+/*       container Style       */
+
+.container {
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.container img {
+    display: block;  
+    margin: 15px auto;
+    width: 20%;
+}
+
+.row {
+    margin: 0px auto 40px auto;
+}
+
+.box {
+    margin: auto 20px;
+    text-align: center;
+}
+
+/*       Nav Style      */
+
+.nav-item {
+    border-radius: 25px;
+}
+
+.nav-item a {
+    color: white;
+    font-size: 12pt;
+    font-family: Consolas;
+}
+
+.nav-item .active {
+    background-color: white;
+    border-radius: inherit;
+    color: black;
+}
+
+.nav-item a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 25px black;
+    border-radius: inherit;
+}
+
+/*       Editing icons      */
+
+.bi {
+    margin: 0px 10px;
+}
+
+.social {
+    float: right;
+}
+
+.toggle {
+    float: left;
+}
+
+/*     Dark and Light Styles    */
+
+.dark {
+    background-color: rgb(30, 30, 30);
+    outline: 3px solid white;
+    box-shadow: 0px 0px 25px black;
+}
+
+.light {
+    background-color: rgb(230, 230, 230);
+    outline: none;
+    box-shadow: 0px 0px 25px lightskyblue;
+}
+
+.hDark {
+    text-shadow: 0px 0px 25px black;
+}
+
+.hLight {
+    text-shadow: 0px 0px 25px lightskyblue;
+}
+
+.backDark {
+    background-image: url("background.jpg");
+}
+
+.backLight {
+    background-image: url("background2.jpg");
+}
+

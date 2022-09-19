@@ -66,7 +66,7 @@ window.onload = function() {
 
 function DelayloadingImages() {
     var imgDiv = document.getElementById("delay");
-    imgDiv.innerHTML = "<iframe src='https://drive.google.com/file/d/14QlKuEm5QtWawbu9ekm0UARKMqatned-/preview' width='740' height='580'>";
+    imgDiv.innerHTML = "<iframe src='https://drive.google.com/file/d/1d7rsuDv6ppk6ZjBrvuhqpblqmRHiyj8f/preview' width='740' height='580'>";
 }
 
 setTimeout("DelayloadingImages()", 500);
